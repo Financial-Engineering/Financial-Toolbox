@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFA99B7B132CB27900BC865C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA99B7A132CB27900BC865C /* Cocoa.framework */; };
+		CFA99B89132CB27A00BC865C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA99B7A132CB27900BC865C /* Cocoa.framework */; };
+		CFA99B8C132CB27A00BC865C /* Financial Toolbox.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA99B77132CB27900BC865C /* Financial Toolbox.dylib */; };
+		CFA99B92132CB27A00BC865C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFA99B90132CB27A00BC865C /* InfoPlist.strings */; };
+		CFA99B95132CB27A00BC865C /* Financial_ToolboxTests.h in Resources */ = {isa = PBXBuildFile; fileRef = CFA99B94132CB27A00BC865C /* Financial_ToolboxTests.h */; };
+		CFA99B97132CB27A00BC865C /* Financial_ToolboxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA99B96132CB27A00BC865C /* Financial_ToolboxTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFA99B8A132CB27A00BC865C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFA99B6E132CB27900BC865C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFA99B76132CB27900BC865C;
+			remoteInfo = "Financial Toolbox";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFA99B77132CB27900BC865C /* Financial Toolbox.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "Financial Toolbox.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA99B7A132CB27900BC865C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CFA99B7D132CB27900BC865C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CFA99B7E132CB27900BC865C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CFA99B7F132CB27900BC865C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CFA99B82132CB27900BC865C /* Financial Toolbox-Prefix.pch */ = {isa = PBXFileReference; path = "Financial Toolbox-Prefix.pch"; sourceTree = "<group>"; };
+		CFA99B88132CB27A00BC865C /* Financial ToolboxTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Financial ToolboxTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA99B8F132CB27A00BC865C /* Financial ToolboxTests-Info.plist */ = {isa = PBXFileReference; path = "Financial ToolboxTests-Info.plist"; sourceTree = "<group>"; };
+		CFA99B91132CB27A00BC865C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CFA99B93132CB27A00BC865C /* Financial ToolboxTests-Prefix.pch */ = {isa = PBXFileReference; path = "Financial ToolboxTests-Prefix.pch"; sourceTree = "<group>"; };
+		CFA99B94132CB27A00BC865C /* Financial_ToolboxTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Financial_ToolboxTests.h; sourceTree = "<group>"; };
+		CFA99B96132CB27A00BC865C /* Financial_ToolboxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Financial_ToolboxTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFA99B74132CB27900BC865C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA99B7B132CB27900BC865C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA99B84132CB27A00BC865C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA99B89132CB27A00BC865C /* Cocoa.framework in Frameworks */,
+				CFA99B8C132CB27A00BC865C /* Financial Toolbox.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFA99B6C132CB27900BC865C = {
+			isa = PBXGroup;
+			children = (
+				CFA99B80132CB27900BC865C /* Financial Toolbox */,
+				CFA99B8D132CB27A00BC865C /* Financial ToolboxTests */,
+				CFA99B79132CB27900BC865C /* Frameworks */,
+				CFA99B78132CB27900BC865C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFA99B78132CB27900BC865C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFA99B77132CB27900BC865C /* Financial Toolbox.dylib */,
+				CFA99B88132CB27A00BC865C /* Financial ToolboxTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFA99B79132CB27900BC865C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFA99B7A132CB27900BC865C /* Cocoa.framework */,
+				CFA99B7C132CB27900BC865C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFA99B7C132CB27900BC865C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFA99B7D132CB27900BC865C /* AppKit.framework */,
+				CFA99B7E132CB27900BC865C /* CoreData.framework */,
+				CFA99B7F132CB27900BC865C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CFA99B80132CB27900BC865C /* Financial Toolbox */ = {
+			isa = PBXGroup;
+			children = (
+				CFA99B81132CB27900BC865C /* Supporting Files */,
+			);
+			path = "Financial Toolbox";
+			sourceTree = "<group>";
+		};
+		CFA99B81132CB27900BC865C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFA99B82132CB27900BC865C /* Financial Toolbox-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFA99B8D132CB27A00BC865C /* Financial ToolboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFA99B94132CB27A00BC865C /* Financial_ToolboxTests.h */,
+				CFA99B96132CB27A00BC865C /* Financial_ToolboxTests.m */,
+				CFA99B8E132CB27A00BC865C /* Supporting Files */,
+			);
+			path = "Financial ToolboxTests";
+			sourceTree = "<group>";
+		};
+		CFA99B8E132CB27A00BC865C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFA99B8F132CB27A00BC865C /* Financial ToolboxTests-Info.plist */,
+				CFA99B90132CB27A00BC865C /* InfoPlist.strings */,
+				CFA99B93132CB27A00BC865C /* Financial ToolboxTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CFA99B75132CB27900BC865C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CFA99B76132CB27900BC865C /* Financial Toolbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA99B9A132CB27A00BC865C /* Build configuration list for PBXNativeTarget "Financial Toolbox" */;
+			buildPhases = (
+				CFA99B73132CB27900BC865C /* Sources */,
+				CFA99B74132CB27900BC865C /* Frameworks */,
+				CFA99B75132CB27900BC865C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Financial Toolbox";
+			productName = "Financial Toolbox";
+			productReference = CFA99B77132CB27900BC865C /* Financial Toolbox.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		CFA99B87132CB27A00BC865C /* Financial ToolboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA99B9D132CB27A00BC865C /* Build configuration list for PBXNativeTarget "Financial ToolboxTests" */;
+			buildPhases = (
+				CFA99B83132CB27A00BC865C /* Sources */,
+				CFA99B84132CB27A00BC865C /* Frameworks */,
+				CFA99B85132CB27A00BC865C /* Resources */,
+				CFA99B86132CB27A00BC865C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFA99B8B132CB27A00BC865C /* PBXTargetDependency */,
+			);
+			name = "Financial ToolboxTests";
+			productName = "Financial ToolboxTests";
+			productReference = CFA99B88132CB27A00BC865C /* Financial ToolboxTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFA99B6E132CB27900BC865C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = RRT;
+			};
+			buildConfigurationList = CFA99B71132CB27900BC865C /* Build configuration list for PBXProject "Financial Toolbox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CFA99B6C132CB27900BC865C;
+			productRefGroup = CFA99B78132CB27900BC865C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFA99B76132CB27900BC865C /* Financial Toolbox */,
+				CFA99B87132CB27A00BC865C /* Financial ToolboxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFA99B85132CB27A00BC865C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA99B92132CB27A00BC865C /* InfoPlist.strings in Resources */,
+				CFA99B95132CB27A00BC865C /* Financial_ToolboxTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CFA99B86132CB27A00BC865C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFA99B73132CB27900BC865C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA99B83132CB27A00BC865C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA99B97132CB27A00BC865C /* Financial_ToolboxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFA99B8B132CB27A00BC865C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFA99B76132CB27900BC865C /* Financial Toolbox */;
+			targetProxy = CFA99B8A132CB27A00BC865C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFA99B90132CB27A00BC865C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFA99B91132CB27A00BC865C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFA99B98132CB27A00BC865C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CFA99B99132CB27A00BC865C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CFA99B9B132CB27A00BC865C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Financial Toolbox/Financial Toolbox-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFA99B9C132CB27A00BC865C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Financial Toolbox/Financial Toolbox-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFA99B9E132CB27A00BC865C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Financial ToolboxTests/Financial ToolboxTests-Prefix.pch";
+				INFOPLIST_FILE = "Financial ToolboxTests/Financial ToolboxTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CFA99B9F132CB27A00BC865C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Financial ToolboxTests/Financial ToolboxTests-Prefix.pch";
+				INFOPLIST_FILE = "Financial ToolboxTests/Financial ToolboxTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFA99B71132CB27900BC865C /* Build configuration list for PBXProject "Financial Toolbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA99B98132CB27A00BC865C /* Debug */,
+				CFA99B99132CB27A00BC865C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA99B9A132CB27A00BC865C /* Build configuration list for PBXNativeTarget "Financial Toolbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA99B9B132CB27A00BC865C /* Debug */,
+				CFA99B9C132CB27A00BC865C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFA99B9D132CB27A00BC865C /* Build configuration list for PBXNativeTarget "Financial ToolboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA99B9E132CB27A00BC865C /* Debug */,
+				CFA99B9F132CB27A00BC865C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFA99B6E132CB27900BC865C /* Project object */;
+}
