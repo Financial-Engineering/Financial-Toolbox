@@ -13,6 +13,23 @@
 		CFA99B92132CB27A00BC865C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFA99B90132CB27A00BC865C /* InfoPlist.strings */; };
 		CFA99B95132CB27A00BC865C /* Financial_ToolboxTests.h in Resources */ = {isa = PBXBuildFile; fileRef = CFA99B94132CB27A00BC865C /* Financial_ToolboxTests.h */; };
 		CFA99B97132CB27A00BC865C /* Financial_ToolboxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA99B96132CB27A00BC865C /* Financial_ToolboxTests.m */; };
+		CFA99BB2132CB2E200BC865C /* Financial Toolbox-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = CFA99BA0132CB2E200BC865C /* Financial Toolbox-Prefix.pch */; };
+		CFA99BF4132CB37B00BC865C /* FTAmericanCrankNicolson.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA99BE4132CB37B00BC865C /* FTAmericanCrankNicolson.h */; };
+		CFA99BF5132CB37B00BC865C /* FTAmericanCrankNicolson.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA99BE5132CB37B00BC865C /* FTAmericanCrankNicolson.m */; };
+		CFA99BF6132CB37B00BC865C /* FTAsianDiscreteHHM.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA99BE6132CB37B00BC865C /* FTAsianDiscreteHHM.h */; };
+		CFA99BF7132CB37B00BC865C /* FTAsianDiscreteHHM.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA99BE7132CB37B00BC865C /* FTAsianDiscreteHHM.m */; };
+		CFA99BF8132CB37B00BC865C /* FTAsianTurnbullWakeman.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA99BE8132CB37B00BC865C /* FTAsianTurnbullWakeman.h */; };
+		CFA99BF9132CB37B00BC865C /* FTAsianTurnbullWakeman.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA99BE9132CB37B00BC865C /* FTAsianTurnbullWakeman.m */; };
+		CFA99BFA132CB37B00BC865C /* FTBlackScholes.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA99BEA132CB37B00BC865C /* FTBlackScholes.h */; };
+		CFA99BFB132CB37B00BC865C /* FTBlackScholes.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA99BEB132CB37B00BC865C /* FTBlackScholes.m */; };
+		CFA99BFC132CB37B00BC865C /* FTDistributions.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA99BEC132CB37B00BC865C /* FTDistributions.h */; };
+		CFA99BFD132CB37B00BC865C /* FTDistributions.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA99BED132CB37B00BC865C /* FTDistributions.m */; };
+		CFA99BFE132CB37B00BC865C /* FTOptionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA99BEE132CB37B00BC865C /* FTOptionModel.h */; };
+		CFA99BFF132CB37B00BC865C /* FTOptionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA99BEF132CB37B00BC865C /* FTOptionModel.m */; };
+		CFA99C00132CB37B00BC865C /* FTRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA99BF0132CB37B00BC865C /* FTRandom.h */; };
+		CFA99C01132CB37B00BC865C /* FTRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA99BF1132CB37B00BC865C /* FTRandom.m */; };
+		CFA99C02132CB37B00BC865C /* FTSingleBarrier.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA99BF2132CB37B00BC865C /* FTSingleBarrier.h */; };
+		CFA99C03132CB37B00BC865C /* FTSingleBarrier.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA99BF3132CB37B00BC865C /* FTSingleBarrier.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +48,29 @@
 		CFA99B7D132CB27900BC865C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		CFA99B7E132CB27900BC865C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		CFA99B7F132CB27900BC865C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		CFA99B82132CB27900BC865C /* Financial Toolbox-Prefix.pch */ = {isa = PBXFileReference; path = "Financial Toolbox-Prefix.pch"; sourceTree = "<group>"; };
 		CFA99B88132CB27A00BC865C /* Financial ToolboxTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Financial ToolboxTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFA99B8F132CB27A00BC865C /* Financial ToolboxTests-Info.plist */ = {isa = PBXFileReference; path = "Financial ToolboxTests-Info.plist"; sourceTree = "<group>"; };
+		CFA99B8F132CB27A00BC865C /* Financial ToolboxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Financial ToolboxTests-Info.plist"; sourceTree = "<group>"; };
 		CFA99B91132CB27A00BC865C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CFA99B93132CB27A00BC865C /* Financial ToolboxTests-Prefix.pch */ = {isa = PBXFileReference; path = "Financial ToolboxTests-Prefix.pch"; sourceTree = "<group>"; };
+		CFA99B93132CB27A00BC865C /* Financial ToolboxTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Financial ToolboxTests-Prefix.pch"; sourceTree = "<group>"; };
 		CFA99B94132CB27A00BC865C /* Financial_ToolboxTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Financial_ToolboxTests.h; sourceTree = "<group>"; };
 		CFA99B96132CB27A00BC865C /* Financial_ToolboxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Financial_ToolboxTests.m; sourceTree = "<group>"; };
+		CFA99BA0132CB2E200BC865C /* Financial Toolbox-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Financial Toolbox-Prefix.pch"; sourceTree = "<group>"; };
+		CFA99BE4132CB37B00BC865C /* FTAmericanCrankNicolson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTAmericanCrankNicolson.h; sourceTree = "<group>"; };
+		CFA99BE5132CB37B00BC865C /* FTAmericanCrankNicolson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTAmericanCrankNicolson.m; sourceTree = "<group>"; };
+		CFA99BE6132CB37B00BC865C /* FTAsianDiscreteHHM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTAsianDiscreteHHM.h; sourceTree = "<group>"; };
+		CFA99BE7132CB37B00BC865C /* FTAsianDiscreteHHM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTAsianDiscreteHHM.m; sourceTree = "<group>"; };
+		CFA99BE8132CB37B00BC865C /* FTAsianTurnbullWakeman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTAsianTurnbullWakeman.h; sourceTree = "<group>"; };
+		CFA99BE9132CB37B00BC865C /* FTAsianTurnbullWakeman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTAsianTurnbullWakeman.m; sourceTree = "<group>"; };
+		CFA99BEA132CB37B00BC865C /* FTBlackScholes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTBlackScholes.h; sourceTree = "<group>"; };
+		CFA99BEB132CB37B00BC865C /* FTBlackScholes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTBlackScholes.m; sourceTree = "<group>"; };
+		CFA99BEC132CB37B00BC865C /* FTDistributions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTDistributions.h; sourceTree = "<group>"; };
+		CFA99BED132CB37B00BC865C /* FTDistributions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTDistributions.m; sourceTree = "<group>"; };
+		CFA99BEE132CB37B00BC865C /* FTOptionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTOptionModel.h; sourceTree = "<group>"; };
+		CFA99BEF132CB37B00BC865C /* FTOptionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTOptionModel.m; sourceTree = "<group>"; };
+		CFA99BF0132CB37B00BC865C /* FTRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTRandom.h; sourceTree = "<group>"; };
+		CFA99BF1132CB37B00BC865C /* FTRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTRandom.m; sourceTree = "<group>"; };
+		CFA99BF2132CB37B00BC865C /* FTSingleBarrier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTSingleBarrier.h; sourceTree = "<group>"; };
+		CFA99BF3132CB37B00BC865C /* FTSingleBarrier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTSingleBarrier.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +135,22 @@
 		CFA99B80132CB27900BC865C /* Financial Toolbox */ = {
 			isa = PBXGroup;
 			children = (
+				CFA99BE4132CB37B00BC865C /* FTAmericanCrankNicolson.h */,
+				CFA99BE5132CB37B00BC865C /* FTAmericanCrankNicolson.m */,
+				CFA99BE6132CB37B00BC865C /* FTAsianDiscreteHHM.h */,
+				CFA99BE7132CB37B00BC865C /* FTAsianDiscreteHHM.m */,
+				CFA99BE8132CB37B00BC865C /* FTAsianTurnbullWakeman.h */,
+				CFA99BE9132CB37B00BC865C /* FTAsianTurnbullWakeman.m */,
+				CFA99BEA132CB37B00BC865C /* FTBlackScholes.h */,
+				CFA99BEB132CB37B00BC865C /* FTBlackScholes.m */,
+				CFA99BEC132CB37B00BC865C /* FTDistributions.h */,
+				CFA99BED132CB37B00BC865C /* FTDistributions.m */,
+				CFA99BEE132CB37B00BC865C /* FTOptionModel.h */,
+				CFA99BEF132CB37B00BC865C /* FTOptionModel.m */,
+				CFA99BF0132CB37B00BC865C /* FTRandom.h */,
+				CFA99BF1132CB37B00BC865C /* FTRandom.m */,
+				CFA99BF2132CB37B00BC865C /* FTSingleBarrier.h */,
+				CFA99BF3132CB37B00BC865C /* FTSingleBarrier.m */,
 				CFA99B81132CB27900BC865C /* Supporting Files */,
 			);
 			path = "Financial Toolbox";
@@ -110,7 +159,7 @@
 		CFA99B81132CB27900BC865C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CFA99B82132CB27900BC865C /* Financial Toolbox-Prefix.pch */,
+				CFA99BA0132CB2E200BC865C /* Financial Toolbox-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -142,6 +191,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFA99BB2132CB2E200BC865C /* Financial Toolbox-Prefix.pch in Headers */,
+				CFA99BF4132CB37B00BC865C /* FTAmericanCrankNicolson.h in Headers */,
+				CFA99BF6132CB37B00BC865C /* FTAsianDiscreteHHM.h in Headers */,
+				CFA99BF8132CB37B00BC865C /* FTAsianTurnbullWakeman.h in Headers */,
+				CFA99BFA132CB37B00BC865C /* FTBlackScholes.h in Headers */,
+				CFA99BFC132CB37B00BC865C /* FTDistributions.h in Headers */,
+				CFA99BFE132CB37B00BC865C /* FTOptionModel.h in Headers */,
+				CFA99C00132CB37B00BC865C /* FTRandom.h in Headers */,
+				CFA99C02132CB37B00BC865C /* FTSingleBarrier.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFA99BF5132CB37B00BC865C /* FTAmericanCrankNicolson.m in Sources */,
+				CFA99BF7132CB37B00BC865C /* FTAsianDiscreteHHM.m in Sources */,
+				CFA99BF9132CB37B00BC865C /* FTAsianTurnbullWakeman.m in Sources */,
+				CFA99BFB132CB37B00BC865C /* FTBlackScholes.m in Sources */,
+				CFA99BFD132CB37B00BC865C /* FTDistributions.m in Sources */,
+				CFA99BFF132CB37B00BC865C /* FTOptionModel.m in Sources */,
+				CFA99C01132CB37B00BC865C /* FTRandom.m in Sources */,
+				CFA99C03132CB37B00BC865C /* FTSingleBarrier.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
