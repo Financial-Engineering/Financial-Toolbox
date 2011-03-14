@@ -38,7 +38,7 @@
 	double sq = v * v;
 	double vdx2 = sq / (dx * dx);
 
-	double b = r-d;
+	b = r-d;
     double pu = -0.25 * dt * (vdx2 + (b - 0.5 * sq) / dx);
     double pm = 1 + 0.5 * dt * vdx2 + 0.5 * r * dt;
     double pd = -0.25 * dt * (vdx2 - (b - 0.5 * sq) / dx);
