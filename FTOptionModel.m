@@ -50,7 +50,7 @@ const double shift = 0.0001;
 	return 0.0;
 }
 
--(double) dxdP: (double)dx h:(const double)h
+-(double) dxdP: (double&)dx h:(const double)h
 {
 	double x = dx;
 	
@@ -65,7 +65,7 @@ const double shift = 0.0001;
 	return (Pup - Pdn) / (2 * h);	
 }
 
--(double) dx2dP: (double)dx h:(const double)h
+-(double) dx2dP: (double&)dx h:(const double)h
 {
 	double x = dx;
 	

@@ -3,216 +3,174 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 45;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CFA99B7B132CB27900BC865C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA99B7A132CB27900BC865C /* Cocoa.framework */; };
-		CFA99B89132CB27A00BC865C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA99B7A132CB27900BC865C /* Cocoa.framework */; };
-		CFA99B8C132CB27A00BC865C /* Financial Toolbox.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA99B77132CB27900BC865C /* Financial Toolbox.dylib */; };
-		CFA99B92132CB27A00BC865C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFA99B90132CB27A00BC865C /* InfoPlist.strings */; };
-		CFA99B95132CB27A00BC865C /* Financial_ToolboxTests.h in Resources */ = {isa = PBXBuildFile; fileRef = CFA99B94132CB27A00BC865C /* Financial_ToolboxTests.h */; };
-		CFA99B97132CB27A00BC865C /* Financial_ToolboxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA99B96132CB27A00BC865C /* Financial_ToolboxTests.m */; };
-		CFA99BB2132CB2E200BC865C /* Financial Toolbox-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = CFA99BA0132CB2E200BC865C /* Financial Toolbox-Prefix.pch */; };
-		CFA99BF4132CB37B00BC865C /* FTAmericanCrankNicolson.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA99BE4132CB37B00BC865C /* FTAmericanCrankNicolson.h */; };
-		CFA99BF5132CB37B00BC865C /* FTAmericanCrankNicolson.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA99BE5132CB37B00BC865C /* FTAmericanCrankNicolson.m */; };
-		CFA99BF6132CB37B00BC865C /* FTAsianDiscreteHHM.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA99BE6132CB37B00BC865C /* FTAsianDiscreteHHM.h */; };
-		CFA99BF7132CB37B00BC865C /* FTAsianDiscreteHHM.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA99BE7132CB37B00BC865C /* FTAsianDiscreteHHM.m */; };
-		CFA99BF8132CB37B00BC865C /* FTAsianTurnbullWakeman.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA99BE8132CB37B00BC865C /* FTAsianTurnbullWakeman.h */; };
-		CFA99BF9132CB37B00BC865C /* FTAsianTurnbullWakeman.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA99BE9132CB37B00BC865C /* FTAsianTurnbullWakeman.m */; };
-		CFA99BFA132CB37B00BC865C /* FTBlackScholes.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA99BEA132CB37B00BC865C /* FTBlackScholes.h */; };
-		CFA99BFB132CB37B00BC865C /* FTBlackScholes.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA99BEB132CB37B00BC865C /* FTBlackScholes.m */; };
-		CFA99BFC132CB37B00BC865C /* FTDistributions.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA99BEC132CB37B00BC865C /* FTDistributions.h */; };
-		CFA99BFD132CB37B00BC865C /* FTDistributions.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA99BED132CB37B00BC865C /* FTDistributions.m */; };
-		CFA99BFE132CB37B00BC865C /* FTOptionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA99BEE132CB37B00BC865C /* FTOptionModel.h */; };
-		CFA99BFF132CB37B00BC865C /* FTOptionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA99BEF132CB37B00BC865C /* FTOptionModel.m */; };
-		CFA99C00132CB37B00BC865C /* FTRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA99BF0132CB37B00BC865C /* FTRandom.h */; };
-		CFA99C01132CB37B00BC865C /* FTRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA99BF1132CB37B00BC865C /* FTRandom.m */; };
-		CFA99C02132CB37B00BC865C /* FTSingleBarrier.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA99BF2132CB37B00BC865C /* FTSingleBarrier.h */; };
-		CFA99C03132CB37B00BC865C /* FTSingleBarrier.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA99BF3132CB37B00BC865C /* FTSingleBarrier.m */; };
+		AA747D9F0F9514B9006C5449 /* Financial_Toolbox_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* Financial_Toolbox_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		CFB3EE07100610EF00325494 /* FTDistributions.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB3EDF7100610EF00325494 /* FTDistributions.m */; };
+		CFB3EE08100610EF00325494 /* FTDistributions.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB3EDF8100610EF00325494 /* FTDistributions.h */; };
+		CFB3EE09100610EF00325494 /* FTOptionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB3EDF9100610EF00325494 /* FTOptionModel.m */; };
+		CFB3EE0A100610EF00325494 /* FTOptionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB3EDFA100610EF00325494 /* FTOptionModel.h */; };
+		CFB3EE0B100610EF00325494 /* FTAmericanCrankNicolson.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB3EDFB100610EF00325494 /* FTAmericanCrankNicolson.m */; };
+		CFB3EE0C100610EF00325494 /* FTAmericanCrankNicolson.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB3EDFC100610EF00325494 /* FTAmericanCrankNicolson.h */; };
+		CFB3EE0D100610EF00325494 /* FTBlackScholes.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB3EDFD100610EF00325494 /* FTBlackScholes.h */; };
+		CFB3EE0E100610EF00325494 /* FTBlackScholes.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB3EDFE100610EF00325494 /* FTBlackScholes.m */; };
+		CFB3EE0F100610EF00325494 /* FTAsianTurnbullWakeman.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB3EDFF100610EF00325494 /* FTAsianTurnbullWakeman.h */; };
+		CFB3EE10100610EF00325494 /* FTAsianTurnbullWakeman.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB3EE00100610EF00325494 /* FTAsianTurnbullWakeman.m */; };
+		CFB3EE11100610EF00325494 /* FTAsianDiscreteHHM.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB3EE01100610EF00325494 /* FTAsianDiscreteHHM.h */; };
+		CFB3EE12100610EF00325494 /* FTAsianDiscreteHHM.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB3EE02100610EF00325494 /* FTAsianDiscreteHHM.m */; };
+		CFB3EE13100610EF00325494 /* FTRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB3EE03100610EF00325494 /* FTRandom.h */; };
+		CFB3EE14100610EF00325494 /* FTRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB3EE04100610EF00325494 /* FTRandom.m */; };
+		CFB3EE15100610EF00325494 /* FTSingleBarrier.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB3EE05100610EF00325494 /* FTSingleBarrier.h */; };
+		CFB3EE16100610EF00325494 /* FTSingleBarrier.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB3EE06100610EF00325494 /* FTSingleBarrier.m */; };
+		CFB3EE1C100610FE00325494 /* FTRiskFactor.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB3EE1A100610FE00325494 /* FTRiskFactor.h */; };
+		CFB3EE1D100610FE00325494 /* FTRiskFactor.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB3EE1B100610FE00325494 /* FTRiskFactor.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		CFA99B8A132CB27A00BC865C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CFA99B6E132CB27900BC865C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CFA99B76132CB27900BC865C;
-			remoteInfo = "Financial Toolbox";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		CFA99B77132CB27900BC865C /* Financial Toolbox.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "Financial Toolbox.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFA99B7A132CB27900BC865C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		CFA99B7D132CB27900BC865C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		CFA99B7E132CB27900BC865C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		CFA99B7F132CB27900BC865C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		CFA99B88132CB27A00BC865C /* Financial ToolboxTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Financial ToolboxTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFA99B8F132CB27A00BC865C /* Financial ToolboxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Financial ToolboxTests-Info.plist"; sourceTree = "<group>"; };
-		CFA99B91132CB27A00BC865C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CFA99B93132CB27A00BC865C /* Financial ToolboxTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Financial ToolboxTests-Prefix.pch"; sourceTree = "<group>"; };
-		CFA99B94132CB27A00BC865C /* Financial_ToolboxTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Financial_ToolboxTests.h; sourceTree = "<group>"; };
-		CFA99B96132CB27A00BC865C /* Financial_ToolboxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Financial_ToolboxTests.m; sourceTree = "<group>"; };
-		CFA99BA0132CB2E200BC865C /* Financial Toolbox-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Financial Toolbox-Prefix.pch"; sourceTree = "<group>"; };
-		CFA99BE4132CB37B00BC865C /* FTAmericanCrankNicolson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTAmericanCrankNicolson.h; sourceTree = "<group>"; };
-		CFA99BE5132CB37B00BC865C /* FTAmericanCrankNicolson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTAmericanCrankNicolson.m; sourceTree = "<group>"; };
-		CFA99BE6132CB37B00BC865C /* FTAsianDiscreteHHM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTAsianDiscreteHHM.h; sourceTree = "<group>"; };
-		CFA99BE7132CB37B00BC865C /* FTAsianDiscreteHHM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTAsianDiscreteHHM.m; sourceTree = "<group>"; };
-		CFA99BE8132CB37B00BC865C /* FTAsianTurnbullWakeman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTAsianTurnbullWakeman.h; sourceTree = "<group>"; };
-		CFA99BE9132CB37B00BC865C /* FTAsianTurnbullWakeman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTAsianTurnbullWakeman.m; sourceTree = "<group>"; };
-		CFA99BEA132CB37B00BC865C /* FTBlackScholes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTBlackScholes.h; sourceTree = "<group>"; };
-		CFA99BEB132CB37B00BC865C /* FTBlackScholes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTBlackScholes.m; sourceTree = "<group>"; };
-		CFA99BEC132CB37B00BC865C /* FTDistributions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTDistributions.h; sourceTree = "<group>"; };
-		CFA99BED132CB37B00BC865C /* FTDistributions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTDistributions.m; sourceTree = "<group>"; };
-		CFA99BEE132CB37B00BC865C /* FTOptionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTOptionModel.h; sourceTree = "<group>"; };
-		CFA99BEF132CB37B00BC865C /* FTOptionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTOptionModel.m; sourceTree = "<group>"; };
-		CFA99BF0132CB37B00BC865C /* FTRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTRandom.h; sourceTree = "<group>"; };
-		CFA99BF1132CB37B00BC865C /* FTRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTRandom.m; sourceTree = "<group>"; };
-		CFA99BF2132CB37B00BC865C /* FTSingleBarrier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTSingleBarrier.h; sourceTree = "<group>"; };
-		CFA99BF3132CB37B00BC865C /* FTSingleBarrier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTSingleBarrier.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* Financial_Toolbox_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Financial_Toolbox_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CFB3EDF7100610EF00325494 /* FTDistributions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTDistributions.m; sourceTree = "<group>"; };
+		CFB3EDF8100610EF00325494 /* FTDistributions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTDistributions.h; sourceTree = "<group>"; };
+		CFB3EDF9100610EF00325494 /* FTOptionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTOptionModel.m; sourceTree = "<group>"; };
+		CFB3EDFA100610EF00325494 /* FTOptionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTOptionModel.h; sourceTree = "<group>"; };
+		CFB3EDFB100610EF00325494 /* FTAmericanCrankNicolson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTAmericanCrankNicolson.m; sourceTree = "<group>"; };
+		CFB3EDFC100610EF00325494 /* FTAmericanCrankNicolson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTAmericanCrankNicolson.h; sourceTree = "<group>"; };
+		CFB3EDFD100610EF00325494 /* FTBlackScholes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTBlackScholes.h; sourceTree = "<group>"; };
+		CFB3EDFE100610EF00325494 /* FTBlackScholes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTBlackScholes.m; sourceTree = "<group>"; };
+		CFB3EDFF100610EF00325494 /* FTAsianTurnbullWakeman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTAsianTurnbullWakeman.h; sourceTree = "<group>"; };
+		CFB3EE00100610EF00325494 /* FTAsianTurnbullWakeman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTAsianTurnbullWakeman.m; sourceTree = "<group>"; };
+		CFB3EE01100610EF00325494 /* FTAsianDiscreteHHM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTAsianDiscreteHHM.h; sourceTree = "<group>"; };
+		CFB3EE02100610EF00325494 /* FTAsianDiscreteHHM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTAsianDiscreteHHM.m; sourceTree = "<group>"; };
+		CFB3EE03100610EF00325494 /* FTRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTRandom.h; sourceTree = "<group>"; };
+		CFB3EE04100610EF00325494 /* FTRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTRandom.m; sourceTree = "<group>"; };
+		CFB3EE05100610EF00325494 /* FTSingleBarrier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTSingleBarrier.h; sourceTree = "<group>"; };
+		CFB3EE06100610EF00325494 /* FTSingleBarrier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTSingleBarrier.m; sourceTree = "<group>"; };
+		CFB3EE1A100610FE00325494 /* FTRiskFactor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTRiskFactor.h; path = ../Options/FTRiskFactor.h; sourceTree = SOURCE_ROOT; };
+		CFB3EE1B100610FE00325494 /* FTRiskFactor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTRiskFactor.m; path = ../Options/FTRiskFactor.m; sourceTree = SOURCE_ROOT; };
+		D2AAC07E0554694100DB518D /* libFinancial_Toolbox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFinancial_Toolbox.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CFA99B74132CB27900BC865C /* Frameworks */ = {
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFA99B7B132CB27900BC865C /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CFA99B84132CB27A00BC865C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CFA99B89132CB27A00BC865C /* Cocoa.framework in Frameworks */,
-				CFA99B8C132CB27A00BC865C /* Financial Toolbox.dylib in Frameworks */,
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CFA99B6C132CB27900BC865C = {
+		034768DFFF38A50411DB9C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CFA99B80132CB27900BC865C /* Financial Toolbox */,
-				CFA99B8D132CB27A00BC865C /* Financial ToolboxTests */,
-				CFA99B79132CB27900BC865C /* Frameworks */,
-				CFA99B78132CB27900BC865C /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		CFA99B78132CB27900BC865C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CFA99B77132CB27900BC865C /* Financial Toolbox.dylib */,
-				CFA99B88132CB27A00BC865C /* Financial ToolboxTests.octest */,
+				D2AAC07E0554694100DB518D /* libFinancial_Toolbox.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CFA99B79132CB27900BC865C /* Frameworks */ = {
+		0867D691FE84028FC02AAC07 /* Financial Toolbox */ = {
 			isa = PBXGroup;
 			children = (
-				CFA99B7A132CB27900BC865C /* Cocoa.framework */,
-				CFA99B7C132CB27900BC865C /* Other Frameworks */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = "Financial Toolbox";
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CFA99B7C132CB27900BC865C /* Other Frameworks */ = {
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				CFA99B7D132CB27900BC865C /* AppKit.framework */,
-				CFA99B7E132CB27900BC865C /* CoreData.framework */,
-				CFA99B7F132CB27900BC865C /* Foundation.framework */,
+				CFB3EE19100610FE00325494 /* RiskFactors */,
+				CFB3EDF6100610EF00325494 /* Option Models */,
 			);
-			name = "Other Frameworks";
+			name = Classes;
 			sourceTree = "<group>";
 		};
-		CFA99B80132CB27900BC865C /* Financial Toolbox */ = {
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				CFA99BE4132CB37B00BC865C /* FTAmericanCrankNicolson.h */,
-				CFA99BE5132CB37B00BC865C /* FTAmericanCrankNicolson.m */,
-				CFA99BE6132CB37B00BC865C /* FTAsianDiscreteHHM.h */,
-				CFA99BE7132CB37B00BC865C /* FTAsianDiscreteHHM.m */,
-				CFA99BE8132CB37B00BC865C /* FTAsianTurnbullWakeman.h */,
-				CFA99BE9132CB37B00BC865C /* FTAsianTurnbullWakeman.m */,
-				CFA99BEA132CB37B00BC865C /* FTBlackScholes.h */,
-				CFA99BEB132CB37B00BC865C /* FTBlackScholes.m */,
-				CFA99BEC132CB37B00BC865C /* FTDistributions.h */,
-				CFA99BED132CB37B00BC865C /* FTDistributions.m */,
-				CFA99BEE132CB37B00BC865C /* FTOptionModel.h */,
-				CFA99BEF132CB37B00BC865C /* FTOptionModel.m */,
-				CFA99BF0132CB37B00BC865C /* FTRandom.h */,
-				CFA99BF1132CB37B00BC865C /* FTRandom.m */,
-				CFA99BF2132CB37B00BC865C /* FTSingleBarrier.h */,
-				CFA99BF3132CB37B00BC865C /* FTSingleBarrier.m */,
-				CFA99B81132CB27900BC865C /* Supporting Files */,
+				AA747D9E0F9514B9006C5449 /* Financial_Toolbox_Prefix.pch */,
 			);
-			path = "Financial Toolbox";
+			name = "Other Sources";
 			sourceTree = "<group>";
 		};
-		CFA99B81132CB27900BC865C /* Supporting Files */ = {
+		CFB3EDF6100610EF00325494 /* Option Models */ = {
 			isa = PBXGroup;
 			children = (
-				CFA99BA0132CB2E200BC865C /* Financial Toolbox-Prefix.pch */,
+				CFB3EDF7100610EF00325494 /* FTDistributions.m */,
+				CFB3EDF8100610EF00325494 /* FTDistributions.h */,
+				CFB3EDF9100610EF00325494 /* FTOptionModel.m */,
+				CFB3EDFA100610EF00325494 /* FTOptionModel.h */,
+				CFB3EDFB100610EF00325494 /* FTAmericanCrankNicolson.m */,
+				CFB3EDFC100610EF00325494 /* FTAmericanCrankNicolson.h */,
+				CFB3EDFD100610EF00325494 /* FTBlackScholes.h */,
+				CFB3EDFE100610EF00325494 /* FTBlackScholes.m */,
+				CFB3EDFF100610EF00325494 /* FTAsianTurnbullWakeman.h */,
+				CFB3EE00100610EF00325494 /* FTAsianTurnbullWakeman.m */,
+				CFB3EE01100610EF00325494 /* FTAsianDiscreteHHM.h */,
+				CFB3EE02100610EF00325494 /* FTAsianDiscreteHHM.m */,
+				CFB3EE03100610EF00325494 /* FTRandom.h */,
+				CFB3EE04100610EF00325494 /* FTRandom.m */,
+				CFB3EE05100610EF00325494 /* FTSingleBarrier.h */,
+				CFB3EE06100610EF00325494 /* FTSingleBarrier.m */,
 			);
-			name = "Supporting Files";
+			name = "Option Models";
 			sourceTree = "<group>";
 		};
-		CFA99B8D132CB27A00BC865C /* Financial ToolboxTests */ = {
+		CFB3EE19100610FE00325494 /* RiskFactors */ = {
 			isa = PBXGroup;
 			children = (
-				CFA99B94132CB27A00BC865C /* Financial_ToolboxTests.h */,
-				CFA99B96132CB27A00BC865C /* Financial_ToolboxTests.m */,
-				CFA99B8E132CB27A00BC865C /* Supporting Files */,
+				CFB3EE1A100610FE00325494 /* FTRiskFactor.h */,
+				CFB3EE1B100610FE00325494 /* FTRiskFactor.m */,
 			);
-			path = "Financial ToolboxTests";
-			sourceTree = "<group>";
-		};
-		CFA99B8E132CB27A00BC865C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				CFA99B8F132CB27A00BC865C /* Financial ToolboxTests-Info.plist */,
-				CFA99B90132CB27A00BC865C /* InfoPlist.strings */,
-				CFA99B93132CB27A00BC865C /* Financial ToolboxTests-Prefix.pch */,
-			);
-			name = "Supporting Files";
+			name = RiskFactors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		CFA99B75132CB27900BC865C /* Headers */ = {
+		D2AAC07A0554694100DB518D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFA99BB2132CB2E200BC865C /* Financial Toolbox-Prefix.pch in Headers */,
-				CFA99BF4132CB37B00BC865C /* FTAmericanCrankNicolson.h in Headers */,
-				CFA99BF6132CB37B00BC865C /* FTAsianDiscreteHHM.h in Headers */,
-				CFA99BF8132CB37B00BC865C /* FTAsianTurnbullWakeman.h in Headers */,
-				CFA99BFA132CB37B00BC865C /* FTBlackScholes.h in Headers */,
-				CFA99BFC132CB37B00BC865C /* FTDistributions.h in Headers */,
-				CFA99BFE132CB37B00BC865C /* FTOptionModel.h in Headers */,
-				CFA99C00132CB37B00BC865C /* FTRandom.h in Headers */,
-				CFA99C02132CB37B00BC865C /* FTSingleBarrier.h in Headers */,
+				AA747D9F0F9514B9006C5449 /* Financial_Toolbox_Prefix.pch in Headers */,
+				CFB3EE08100610EF00325494 /* FTDistributions.h in Headers */,
+				CFB3EE0A100610EF00325494 /* FTOptionModel.h in Headers */,
+				CFB3EE0C100610EF00325494 /* FTAmericanCrankNicolson.h in Headers */,
+				CFB3EE0D100610EF00325494 /* FTBlackScholes.h in Headers */,
+				CFB3EE0F100610EF00325494 /* FTAsianTurnbullWakeman.h in Headers */,
+				CFB3EE11100610EF00325494 /* FTAsianDiscreteHHM.h in Headers */,
+				CFB3EE13100610EF00325494 /* FTRandom.h in Headers */,
+				CFB3EE15100610EF00325494 /* FTSingleBarrier.h in Headers */,
+				CFB3EE1C100610FE00325494 /* FTRiskFactor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		CFA99B76132CB27900BC865C /* Financial Toolbox */ = {
+		D2AAC07D0554694100DB518D /* Financial Toolbox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CFA99B9A132CB27A00BC865C /* Build configuration list for PBXNativeTarget "Financial Toolbox" */;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "Financial Toolbox" */;
 			buildPhases = (
-				CFA99B73132CB27900BC865C /* Sources */,
-				CFA99B74132CB27900BC865C /* Frameworks */,
-				CFA99B75132CB27900BC865C /* Headers */,
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -220,259 +178,132 @@
 			);
 			name = "Financial Toolbox";
 			productName = "Financial Toolbox";
-			productReference = CFA99B77132CB27900BC865C /* Financial Toolbox.dylib */;
-			productType = "com.apple.product-type.library.dynamic";
-		};
-		CFA99B87132CB27A00BC865C /* Financial ToolboxTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CFA99B9D132CB27A00BC865C /* Build configuration list for PBXNativeTarget "Financial ToolboxTests" */;
-			buildPhases = (
-				CFA99B83132CB27A00BC865C /* Sources */,
-				CFA99B84132CB27A00BC865C /* Frameworks */,
-				CFA99B85132CB27A00BC865C /* Resources */,
-				CFA99B86132CB27A00BC865C /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CFA99B8B132CB27A00BC865C /* PBXTargetDependency */,
-			);
-			name = "Financial ToolboxTests";
-			productName = "Financial ToolboxTests";
-			productReference = CFA99B88132CB27A00BC865C /* Financial ToolboxTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = D2AAC07E0554694100DB518D /* libFinancial_Toolbox.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CFA99B6E132CB27900BC865C /* Project object */ = {
+		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
-			attributes = {
-				ORGANIZATIONNAME = RRT;
-			};
-			buildConfigurationList = CFA99B71132CB27900BC865C /* Build configuration list for PBXProject "Financial Toolbox" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = CFA99B6C132CB27900BC865C;
-			productRefGroup = CFA99B78132CB27900BC865C /* Products */;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "Financial Toolbox" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* Financial Toolbox */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CFA99B76132CB27900BC865C /* Financial Toolbox */,
-				CFA99B87132CB27A00BC865C /* Financial ToolboxTests */,
+				D2AAC07D0554694100DB518D /* Financial Toolbox */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		CFA99B85132CB27A00BC865C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CFA99B92132CB27A00BC865C /* InfoPlist.strings in Resources */,
-				CFA99B95132CB27A00BC865C /* Financial_ToolboxTests.h in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		CFA99B86132CB27A00BC865C /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		CFA99B73132CB27900BC865C /* Sources */ = {
+		D2AAC07B0554694100DB518D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFA99BF5132CB37B00BC865C /* FTAmericanCrankNicolson.m in Sources */,
-				CFA99BF7132CB37B00BC865C /* FTAsianDiscreteHHM.m in Sources */,
-				CFA99BF9132CB37B00BC865C /* FTAsianTurnbullWakeman.m in Sources */,
-				CFA99BFB132CB37B00BC865C /* FTBlackScholes.m in Sources */,
-				CFA99BFD132CB37B00BC865C /* FTDistributions.m in Sources */,
-				CFA99BFF132CB37B00BC865C /* FTOptionModel.m in Sources */,
-				CFA99C01132CB37B00BC865C /* FTRandom.m in Sources */,
-				CFA99C03132CB37B00BC865C /* FTSingleBarrier.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CFA99B83132CB27A00BC865C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CFA99B97132CB27A00BC865C /* Financial_ToolboxTests.m in Sources */,
+				CFB3EE07100610EF00325494 /* FTDistributions.m in Sources */,
+				CFB3EE09100610EF00325494 /* FTOptionModel.m in Sources */,
+				CFB3EE0B100610EF00325494 /* FTAmericanCrankNicolson.m in Sources */,
+				CFB3EE0E100610EF00325494 /* FTBlackScholes.m in Sources */,
+				CFB3EE10100610EF00325494 /* FTAsianTurnbullWakeman.m in Sources */,
+				CFB3EE12100610EF00325494 /* FTAsianDiscreteHHM.m in Sources */,
+				CFB3EE14100610EF00325494 /* FTRandom.m in Sources */,
+				CFB3EE16100610EF00325494 /* FTSingleBarrier.m in Sources */,
+				CFB3EE1D100610FE00325494 /* FTRiskFactor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		CFA99B8B132CB27A00BC865C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CFA99B76132CB27900BC865C /* Financial Toolbox */;
-			targetProxy = CFA99B8A132CB27A00BC865C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		CFA99B90132CB27A00BC865C /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CFA99B91132CB27A00BC865C /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		CFA99B98132CB27A00BC865C /* Debug */ = {
+		1DEB921F08733DC00010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/Financial_Toolbox.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Financial_Toolbox_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = Financial_Toolbox;
 			};
 			name = Debug;
 		};
-		CFA99B99132CB27A00BC865C /* Release */ = {
+		1DEB922008733DC00010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				SDKROOT = macosx;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/Financial_Toolbox.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Financial_Toolbox_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = Financial_Toolbox;
 			};
 			name = Release;
 		};
-		CFA99B9B132CB27A00BC865C /* Debug */ = {
+		1DEB922308733DC00010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Financial Toolbox/Financial Toolbox-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos3.1;
 			};
 			name = Debug;
 		};
-		CFA99B9C132CB27A00BC865C /* Release */ = {
+		1DEB922408733DC00010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Financial Toolbox/Financial Toolbox-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		CFA99B9E132CB27A00BC865C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Financial ToolboxTests/Financial ToolboxTests-Prefix.pch";
-				INFOPLIST_FILE = "Financial ToolboxTests/Financial ToolboxTests-Info.plist";
-				OTHER_LDFLAGS = (
-					"-framework",
-					SenTestingKit,
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		CFA99B9F132CB27A00BC865C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Financial ToolboxTests/Financial ToolboxTests-Prefix.pch";
-				INFOPLIST_FILE = "Financial ToolboxTests/Financial ToolboxTests-Info.plist";
-				OTHER_LDFLAGS = (
-					"-framework",
-					SenTestingKit,
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CFA99B71132CB27900BC865C /* Build configuration list for PBXProject "Financial Toolbox" */ = {
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "Financial Toolbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CFA99B98132CB27A00BC865C /* Debug */,
-				CFA99B99132CB27A00BC865C /* Release */,
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CFA99B9A132CB27A00BC865C /* Build configuration list for PBXNativeTarget "Financial Toolbox" */ = {
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "Financial Toolbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CFA99B9B132CB27A00BC865C /* Debug */,
-				CFA99B9C132CB27A00BC865C /* Release */,
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		CFA99B9D132CB27A00BC865C /* Build configuration list for PBXNativeTarget "Financial ToolboxTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CFA99B9E132CB27A00BC865C /* Debug */,
-				CFA99B9F132CB27A00BC865C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CFA99B6E132CB27900BC865C /* Project object */;
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
 }

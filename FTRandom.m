@@ -73,11 +73,11 @@
 		for (int k=0;k<MAXDIM;k++) {
 			for (int j=0;j<mdeg[k];j++) 
 				iu[j][k] <<= (MAXBIT-j);
-			for (unsigned long j=mdeg[k];j<MAXBIT;j++) { 
+			for (int j=mdeg[k];j<MAXBIT;j++) { 
 				unsigned long ipp = ip[k];
 				unsigned long i = iu[j-mdeg[k]][k];
 				i ^= (i >> mdeg[k]);
-				for (unsigned long l=mdeg[k]-1;l>=1;l--) {
+				for (int l=mdeg[k]-1;l>=1;l--) {
 					if (ipp & 1) i ^= iu[j-l][k];
 					ipp >>= 1;
 				}
